@@ -283,7 +283,7 @@
 		modelSkin="0"
 		modelCfg="172"
 		modelSlot="1"
-		value="TOOZOKU FERIKKUSU|Guruhoi shusshin'na ndesu ne! Shinjite kudasai, soreha watashitachide wa naku, kinrin no chiiki kara no tsuaaaatisutodeshita!"
+		value="TOOZOKU FERIKKUSU|Guruhoi shusshin'na ndesu ne? Shinjite kudasai, soreha watashitachide wa naku, kinrin no chiiki kara no tsuaaaatisutodeshita!"
 		sound="data\sounds\Speech\r1m1\r1m1_1158_felix.ogg"
 		time="8" />
 
@@ -324,7 +324,7 @@
 	<string
 		id="11513"
 		modelName="mask_hero"
-		value="|Risa… kanojo ga ko no subete ni nanrakano katachi de kankei shite iru yoona ki ga suru… watashi wa kanojo o mitsukete, jissai ni nani ga okotta no ka shirabete miru. Wakatta, Ferikkusu, inochi wa tasukete ageru. Shi hookoo subete ni susumimasu. Nidoto korera no bubun de kao o miseru no wa yamete kudasai."
+		value="|Risa… Kanojo ga ko no subete ni nanrakano katachi de kankei shite iru yoona ki ga suru… Watashi wa kanojo o mitsukete, jissai ni nani ga okotta no ka shirabete miru. Wakatta, Ferikkusu, inochi wa tasukete ageru. Shi hookoo subete ni susumimasu. Nidoto korera no bubun de kao o miseru no wa yamete kudasai."
 		sound="data\sounds\Speech\r1m1\r1m1_11513_hero.ogg"
 		time="17" />
 

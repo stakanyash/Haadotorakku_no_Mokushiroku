@@ -1082,6 +1082,7 @@
 			AddCinematicMessage( 35, 0.5 )
 			AddCinematicMessage( 36, 1 )
 			AddCinematicMessage( 361, 0.5 )
+			AddCinematicMessage( 3611, 0.1 )
 			AddCinematicMessage( 3610, 0.1 )
 
 			trigger:Deactivate()
