@@ -1091,7 +1091,11 @@
 	<trigger Name="TitlesStart" active="0">
 		<event msgid="5994" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
 		<script>
-			PlayCustomMusic("HnM_Ending")
+			if CountPlayerProgress()==33 then
+				PlayCustomMusic("HnM_Ending_100")
+			else
+				PlayCustomMusic("HnM_Ending")
+			end
 
 			RuleConsole("snd_2dVolume 0")
             RuleConsole("snd_3dVolume 0")
@@ -1105,8 +1109,21 @@
 		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
-			StopPlayingCustomMusic()
-			ShowDeathMenu()
+			TActivate("Ending")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Ending" active="0">
+		<event	timeout="0.01"		eventid="GE_TIME_PERIOD" />
+		<script>
+			if CountPlayerProgress()==33 then
+				SpawnMessageBox( "5998" )
+				ShowDeathMenu()
+			else
+				ShowDeathMenu()
+			end
 
 			trigger:Deactivate()
 		</script>

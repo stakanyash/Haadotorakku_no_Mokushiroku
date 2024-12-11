@@ -525,4 +525,9 @@
 		fontSize="18"
 		scrollSpeed="2.5"
 		time="62" />
+
+	<string
+		id="5998"
+		value="Omedetoogozaimasu, geemu o 100-paasento kuria shimashita!"
+		numButtons="1" />
 </resource>
