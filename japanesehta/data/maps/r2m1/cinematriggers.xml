@@ -1870,7 +1870,7 @@
 		<event msgid="5994" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
 		<script>
 			if CountPlayerProgress()==33 then
-				PlayCustomMusic("HnM_Ending_100")
+				PlayCustomMusic("HnM_EndingFull")
 			else
 				PlayCustomMusic("HnM_Ending")
 			end
