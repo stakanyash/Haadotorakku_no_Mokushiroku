@@ -192,6 +192,9 @@
 		id="HnM_Ending"
 		file="data\music\cinematics\hnmending.ogg" />
 	<model
+		id="HnM_EndingFull"
+		file="data\music\cinematics\hnmendingfull.ogg" />
+	<model
 		id="Bio01"
 		file="data\music\cinematics\Bio01.ogg" />
 	<model

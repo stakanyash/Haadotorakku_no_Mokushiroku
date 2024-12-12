@@ -273,8 +273,16 @@
 		modelName="mask_oracul"
 		modelSlot="1"
 		sound="data\sounds\Speech\r1m3\r1m3_361_oracle.ogg"
-		value="ORAKURU|Mazuwa watashi no hanashi o kiite kudasai. Watashi wa anata o zenmen-teki ni shinrai shite irunode, hitotsu himitsu o akashitai to omoimasu. Sore wa hijoo ni juuyoodesu. Nan'nen mo zen, gaikoku no shinryaku-sha ga watashitachi no wakusei ni chishi koosen o shoosha shi, sono Yuka chikyuu no baiomasu ga gekigen shimashita."
-		time="22" />
+		value="ORAKURU|Mazuwa watashi no hanashi o kiite kudasai. Watashi wa anata o zenmen-teki ni shinrai shite irunode, hitotsu himitsu o akashitai to omoimasu. Sore wa hijoo ni juuyoodesu."
+		time="1" />
+
+	<string
+		id="3611"
+		modelName="mask_oracul"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_3611_oracle.ogg"
+		value="ORAKURU|Nan'nen mo zen, gaikoku no shinryaku-sha ga watashitachi no wakusei ni chishi koosen o shoosha shi, sono Yuka chikyuu no baiomasu ga gekigen shimashita."
+		time="1" />
 
 	<string
 		id="3610"
@@ -517,4 +525,9 @@
 		fontSize="18"
 		scrollSpeed="2.5"
 		time="62" />
+
+	<string
+		id="5998"
+		value="Omedetoogozaimasu, geemu o 100-paasento kuria shimashita!"
+		numButtons="1" />
 </resource>

@@ -704,7 +704,7 @@
 	<QuestInfo
 		questName="d_FindLisaInBase_Quest"
 		briefDiz="Risa on Base 51 ni tsuite shitsumon suru"
-		fullDiz="Risa wa omotte iru hodo tanjunde wa nai yoodesu. Kanojo wa akiraka ni sanzoku to kankei ga aru. Amari odoroita to iu wakede wa nai nodesuga�"
+		fullDiz="Risa wa omotte iru hodo tanjunde wa nai yoodesu. Kanojo wa akiraka ni sanzoku to kankei ga aru. Amari odoroita to iu wakede wa nai nodesuga..."
 		isMainQuest="1">
 		<Map
 			name="r1m3"
@@ -1489,7 +1489,7 @@
 	<QuestInfo
 		questName="r1m1_Botanik_Quest"
 		briefDiz="Shokubutsu gakusha ni kusuri o motte iku"
-		fullDiz="Doko de kusuri o te ni ireru koto ga dekiru ka shiritaidesu ka? Iseki o nozoite mita hoo ga ii kamo shirenai�"
+		fullDiz="Doko de kusuri o te ni ireru koto ga dekiru ka shiritaidesu ka? Iseki o nozoite mita hoo ga ii kamo shirenai..."
 		isMainQuest="0">
 		<Map
 			name="r1m1"
@@ -2142,7 +2142,7 @@
 	<QuestInfo
 		questName="r2m2_FindROMinCastle"
 		briefDiz="Shuudooin ni kite kudasai"
-		fullDiz="Shuudooin kara wain o hakobu to iu tanjun'na shigoto ni, doko ka ayashii kehai ga�"
+		fullDiz="Shuudooin kara wain o hakobu to iu tanjun'na shigoto ni, doko ka ayashii kehai ga..."
 		isMainQuest="1">
 		<Map
 			name="r2m2"

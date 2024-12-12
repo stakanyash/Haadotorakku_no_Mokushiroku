@@ -4,8 +4,8 @@ language: ru
 installment: exmachina
 # required human readable info
 display_name: Haadotorakku no Mokushiroku
-version: "1.0.2"
-build: "241005a"
+version: "1.0.3"
+build: "241212d"
 description: 'Машинный перевод Ex Machina на Японский язык. Текст в игре написан используя стиль «Ромадзи».
 
 

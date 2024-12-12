@@ -4,8 +4,8 @@ language: eng
 installment: exmachina
 # required human readable info
 display_name: Haadotorakku no Mokushiroku
-version: "1.0.2"
-build: "241005a"
+version: "1.0.3"
+build: "241212d"
 description: 'Auto-translate Hard Truck Apocalypse into Japanese. The text in the game is written using the «Romaji» style.
 
 

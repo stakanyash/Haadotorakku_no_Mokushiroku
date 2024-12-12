@@ -38,7 +38,7 @@
 		modelCfg="59"
 		modelSlot="1"
 		sound="data\sounds\Speech\r2m1\r2m1_4_stranger.ogg"
-		value="MISHIRANU HITO|Sore de, anata wa sendoo-shade wa nai nodesu ka? Kuso ? , karera wa wareware no shiki o tamesu tame ni kimi o koko ni okurikonda no ka to omotta nda. Nani mo osoreru koto wa nainoni. Watashi wa shoojikina senshidesu!"
+		value="MISHIRANU HITO|Sore de, anata wa sendoo-shade wa nai nodesu ka? Kuso, karera wa wareware no shiki o tamesu tame ni kimi o koko ni okurikonda no ka to omotta nda. Nani mo osoreru koto wa nainoni. Watashi wa shoojikina senshidesu!"
 		time="8" />
 
 	<string
@@ -676,4 +676,9 @@
 		fontSize="18"
 		scrollSpeed="2.5"
 		time="62" />
+
+	<string
+		id="5998"
+		value="Omedetoogozaimasu, geemu o 100-paasento kuria shimashita!"
+		numButtons="1" />
 </resource>
