@@ -40,7 +40,7 @@
 
 - The first release version of Haadotorakku no Mokushiroku
 - Text and voiceover translated into Japanese
-- Replaced music in the main menu and in the вЂњDevelopersвЂќ tab
+- Replaced music in the main menu and in the "Developers" tab
 - Titles have been added at the end of the game
 - When the end credits start, the volume of all sounds except music is reduced to zero
 
