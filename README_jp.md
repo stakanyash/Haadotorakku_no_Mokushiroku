@@ -23,6 +23,12 @@
 
 -----------------
 
+### 借りる:
+
+- ゲームの100%クリア確認 - [コミュニティ災害 (Community Disaster)](https://github.com/zatinu322/stream_builds)
+
+-----------------
+
 ### ありがとう:
 
 - **[Deus Ex Machina](https://discord.gg/PVW57kr) コミュニティ - 開発における助言と援助のために**
