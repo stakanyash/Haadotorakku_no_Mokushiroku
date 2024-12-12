@@ -1,6 +1,11 @@
 version = "1.0.3"
-build = "241212c"
-releaseType = "dev"
+build = "241212d"
+
+if GetComputerName() == "DESKTOP-FJ3PFN3" then
+	releaseType = "dev"
+else
+	releaseType = "release"
+end
 
 LOG("Haadotorakku no Mokushiroku v" .. version .. " [" .. build .. "] (" .. releaseType .. ")")
 

@@ -4,8 +4,8 @@ language: jp
 installment: exmachina
 # required human readable info
 display_name: ハードトラックの黙示録
-version: "1.0.2"
-build: "241005a"
+version: "1.0.3"
+build: "241212d"
 description: 'Hard Truck Apocalypse を日本語に自動翻訳します。ゲーム内のテキストは「ローマ字」形式で書かれています。
 
 
