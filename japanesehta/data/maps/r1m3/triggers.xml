@@ -1091,7 +1091,7 @@
 	<trigger Name="TitlesStart" active="0">
 		<event msgid="5994" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
 		<script>
-			if CountPlayerProgress() >= 100 then
+			if CountPlayerProgress() >= 99 then
 				PlayCustomMusic("HnM_EndingFull")
 				TDeactivate("TRIGGER_ORACLEAGRESSORDIECINEMATIC")
 				TActivate("Ending100")
