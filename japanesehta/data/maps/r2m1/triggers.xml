@@ -1234,18 +1234,4 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
-
-	<trigger Name="Ending" active="0">
-		<event	timeout="0.01"		eventid="GE_TIME_PERIOD" />
-		<script>
-			if CountPlayerProgress()==33 then
-				SpawnMessageBox( "5998" )
-				ShowDeathMenu()
-			else
-				ShowDeathMenu()
-			end
-
-			trigger:Deactivate()
-		</script>
-	</trigger>
 </triggers>

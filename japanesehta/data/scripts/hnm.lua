@@ -1,4 +1,8 @@
-LOG("Haadotorakku no Mokushiroku v1.0.3")
+version = "1.0.3"
+build = "241212c"
+releaseType = "dev"
+
+LOG("Haadotorakku no Mokushiroku v" .. version .. " [" .. build .. "] (" .. releaseType .. ")")
 
 function CountPlayerProgress()
 	local progress = 0
@@ -64,5 +68,5 @@ function CountPlayerProgress()
 	local percentage = string.format( "%.0f", progress/33*100)
 	println(percentage.."%")
 
-	return progress
+	return tonumber(percentage)
 end

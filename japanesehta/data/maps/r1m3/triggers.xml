@@ -1091,8 +1091,10 @@
 	<trigger Name="TitlesStart" active="0">
 		<event msgid="5994" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
 		<script>
-			if CountPlayerProgress()==33 then
+			if CountPlayerProgress() >= 100 then
 				PlayCustomMusic("HnM_EndingFull")
+				TDeactivate("TRIGGER_ORACLEAGRESSORDIECINEMATIC")
+				TActivate("Ending100")
 			else
 				PlayCustomMusic("HnM_Ending")
 			end
@@ -1109,21 +1111,19 @@
 		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
-			TActivate("Ending")
+			ShowDeathMenu()
 
 			trigger:Deactivate()
 		</script>
 	</trigger>
 
-	<trigger Name="Ending" active="0">
-		<event	timeout="0.01"		eventid="GE_TIME_PERIOD" />
+	<trigger Name="Ending100" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
-			if CountPlayerProgress()==33 then
-				SpawnMessageBox( "5998" )
-				ShowDeathMenu()
-			else
-				ShowDeathMenu()
-			end
+			SpawnMessageBox("5998")
+			
+			ShowDeathMenu()
 
 			trigger:Deactivate()
 		</script>
