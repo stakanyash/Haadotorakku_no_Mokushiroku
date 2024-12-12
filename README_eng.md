@@ -23,6 +23,12 @@ You can watch **Haadotorakku no Mokushiroku** trailer [here](https://www.youtube
 
 -----------------
 
+### Borrowing:
+
+- Checking for 100% playthrough - [Community Disaster](https://github.com/zatinu322/stream_builds)
+
+-----------------
+
 ### My thanks to:
 
 - **[Deus Ex Machina](https://discord.gg/PVW57kr) community - for advice and assistance in the development**
