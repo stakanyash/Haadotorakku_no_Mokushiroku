@@ -52,3 +52,5 @@
 **バグレポートは私の[Discordサーバー](https://discord.com/invite/Cd5GanuYud)の「bugreports」チャンネル、または[Deus Ex Machinaサーバー](https://discord.gg/PVW57kr)の「Haadotorakku no Mokushiroku」チャンネルで受け付けています。チャンネルは「витрина-модов」セクションにあります。**
 
 **フィードバックや提案は、私のDiscordサーバーだけでなく、利用可能な他のチャネルにも残すことができます。**
+
+### 翻訳はオンライン翻訳ツールを使用して行われました。翻訳に不正確な点がある場合は、issueを作成してください。
