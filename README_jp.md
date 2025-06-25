@@ -7,10 +7,11 @@
 **[「ハードトラックの黙示録」予告編を見る（YouTube)](https://www.youtube.com/watch?v=50SPVP-QQac)**
 
 -----------------
+<div align="center">
 
-[![ru_bt](git_assets/ru_bu.png)](https://github.com/ksh1vn/Haadotorakku_no_Mokushiroku/blob/main/README.md)
-[![eng_bt](git_assets/en_bu.png)](https://github.com/ksh1vn/Haadotorakku_no_Mokushiroku/blob/main/README_eng.md)
-![jp_bt_sel](git_assets/jp_bu_sel.png)
+[![ru_bt](git_assets/ru_bu.png)](https://github.com/ksh1vn/Haadotorakku_no_Mokushiroku/blob/main/README.md) [![eng_bt](git_assets/en_bu.png)](https://github.com/ksh1vn/Haadotorakku_no_Mokushiroku/blob/main/README_eng.md) ![jp_bt_sel](git_assets/jp_bu_sel.png)
+
+</div>
 
 -----------------
 
