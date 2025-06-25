@@ -7,10 +7,11 @@
 **Трейлер **Haadotorakku no Mokushiroku** можно посмотреть [здесь](https://www.youtube.com/watch?v=50SPVP-QQac).**
 
 -----------------
+<div align="center">
 
-![ru_bt_sel](git_assets/ru_bu_sel.png)
-[![eng_bt](git_assets/en_bu.png)](https://github.com/ksh1vn/Haadotorakku_no_Mokushiroku/blob/main/README_eng.md)
-[![jp_bt](git_assets/jp_bu.png)](https://github.com/ksh1vn/Haadotorakku_no_Mokushiroku/blob/main/README_jp.md)
+![ru_bt_sel](git_assets/ru_bu_sel.png) [![eng_bt](git_assets/en_bu.png)](https://github.com/ksh1vn/Haadotorakku_no_Mokushiroku/blob/main/README_eng.md) [![jp_bt](git_assets/jp_bu.png)](https://github.com/ksh1vn/Haadotorakku_no_Mokushiroku/blob/main/README_jp.md)
+
+</div>
 
 -----------------
 
