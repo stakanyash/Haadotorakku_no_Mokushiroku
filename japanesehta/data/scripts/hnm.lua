@@ -1,13 +1,15 @@
-version = "1.0.3"
-build = "241212d"
+version = "1.1"
+build = "251025b"
 
-if GetComputerName() == "DESKTOP-FJ3PFN3" then
+if GetComputerName() == "STAKANYASH" then
 	releaseType = "dev"
 else
 	releaseType = "release"
 end
 
 LOG("Haadotorakku no Mokushiroku v" .. version .. " [" .. build .. "] (" .. releaseType .. ")")
+
+-- function from Community Disaster by pavlikrpg --
 
 function CountPlayerProgress()
 	local progress = 0

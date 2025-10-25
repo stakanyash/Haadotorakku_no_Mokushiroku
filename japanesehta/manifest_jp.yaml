@@ -4,8 +4,8 @@ language: jp
 installment: exmachina
 # required human readable info
 display_name: ハードトラックの黙示録
-version: "1.0.3"
-build: "241212d"
+version: "1.1"
+build: "251025b"
 description: 'Hard Truck Apocalypse を日本語に自動翻訳します。ゲーム内のテキストは「ローマ字」形式で書かれています。
 
 
@@ -34,12 +34,13 @@ prerequisites:
   - name: community_remaster
     versions:
       - ">=1.14.1"
+    optional_content:
+     - hd_gun_models
+     - hd_vehicle_models
+     - ost_remaster
 
 optional_content:
-  - name: hd_music
-    display_name: "リマスターされたドライビングテーマ"
-    description: "デフォルトでは変更で無効になっている運転テーマのリマスターを有効にします。 
-    
-    
-    警告! リマスターされたサウンドトラックがインストールされている場合にのみインストールしてください。そうでない場合、運転テーマはゲームで機能しません。"
+  - name: oldost
+    display_name: "旧版OST Haadotorakku no Mokushiroku"
+    description: "バージョン1.1以前に使用されていた旧OSTを復元します"
     default_option: skip

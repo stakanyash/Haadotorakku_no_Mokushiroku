@@ -1,5 +1,14 @@
 # Changelog of all versions of Haadotorakku no Mokushiroku
 
+### 1.1 [build 251025b]
+
+- Fixed incorrect letter cases in the weapon statistics and in Petr's name during the conversation with Sergo
+- Updated the OST of the main menu and the credits
+- The alternate version of the OST in the credits for 100% completion has been disabled. Two different versions now play in different endings
+- Added Japanese-localized group logos
+- The installation now requires all optional Community Remaster components to be installed (HD vehicles, HD weapons, remastered OST)
+- The old OST version Haadotorakku no Mokushiroku has been added as an optional component for installation
+
 ### 1.0.3 [build 241212d]
 
 - All voiceovers have been normalized by volume

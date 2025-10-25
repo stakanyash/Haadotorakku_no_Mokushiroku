@@ -347,7 +347,7 @@
 
 
 
-<!-- освобождение вышки -->
+<!-- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ -->
 	<trigger Name="ATTACKOILMINE" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -449,7 +449,7 @@
 
 
 
-<!-- слежка за бандитом -->
+<!-- пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ -->
 	<trigger Name="RUNTORUNER" active="0">
 		<event timeout="1" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -563,7 +563,7 @@
 
 
 
-<!-- слежка за мэром -->
+<!-- пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ -->
 	<trigger Name="SPYMER" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -688,7 +688,7 @@
 
 
 
-<!-- поиски лисы -->
+<!-- пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ -->
 	<trigger Name="BASEABOUTLISA" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -762,7 +762,7 @@
 
 
 
-<!-- Узнать где туннель -->
+<!-- пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ -->
 	<trigger Name="TUNNELLOCATION" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="TunnelLoc" />
 		<script>
@@ -780,7 +780,7 @@
 
 
 
-<!-- Устроить засаду  -->
+<!-- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ  -->
 	<trigger Name="ZASADATUNEL" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="ZasadaLocQ" />
 		<script>
@@ -1092,12 +1092,11 @@
 		<event msgid="5994" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
 		<script>
 			if CountPlayerProgress() >= 99 then
-				PlayCustomMusic("HnM_EndingFull")
 				TDeactivate("TRIGGER_ORACLEAGRESSORDIECINEMATIC")
 				TActivate("Ending100")
-			else
-				PlayCustomMusic("HnM_Ending")
 			end
+
+			PlayCustomMusic("HnM_Ending")
 
 			RuleConsole("snd_2dVolume 0")
             RuleConsole("snd_3dVolume 0")
