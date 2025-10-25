@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <triggers>
 
-<!-- Игрок выезжает из тоннеля. Игрок ищет Лису, укравшую диск 2.(1). -->
+<!-- пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ 2.(1). -->
 	<trigger Name="trStart01_cam02" active="0">
 		<event flypath="Start01_cam02" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
@@ -101,7 +101,7 @@
 
 
 
-<!-- Игрок выезжает из тоннеля. Игрок ищет Акселя - убийцу отца. (2)	 -->
+<!-- пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ - пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ. (2)	 -->
 	<trigger Name="trStart02_cam02" active="0">
 		<event flypath="Start01_cam02" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
@@ -204,7 +204,7 @@
 
 
 
-<!-- 3. Игрок убивает машинку перед тоннелем -->
+<!-- 3. пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ -->
 	<trigger Name="RolikBegin_FIRSTATTACK" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -287,7 +287,7 @@
 
 
 
-<!-- Машинка игрока останавливается -->
+<!-- пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ -->
 	<trigger Name="trVehSTOP" active="0">
  		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
 		<script>
@@ -307,7 +307,7 @@
 
 
 
-<!-- засада на генерала АР -->
+<!-- пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ -->
 	<trigger Name="RolikBegin_TAKEBOSSARLOC" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -382,7 +382,7 @@
 
 
 
-<!-- игрок натыкается на лису -->
+<!-- пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ -->
 	<trigger Name="RolikBegin_Lisa" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -509,7 +509,7 @@
 
 
 
-<!-- игрок побеждает лису. -->
+<!-- пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ. -->
 	<trigger Name="RolikBegin_LISADIED" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -873,7 +873,7 @@
 		</script>
 	</trigger>
 
-<!-- Игрок приезжает в Париж -->
+<!-- пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ -->
 	<trigger Name="RolikBegin_OPARIS" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -1005,7 +1005,7 @@
 
 
 
-<!-- Смерть босса -->
+<!-- пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ -->
 	<trigger Name="RolikBegin_BOSSDIE" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Boss02Die_Loc" />
 		<script>
@@ -1064,7 +1064,7 @@
 
 
 
-<!-- мерцающее нло -->
+<!-- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ -->
 	<trigger Name="trGeneric" active="0">
 		<event timeout="0.03" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -1181,7 +1181,7 @@
 
 
 
-<!-- Тарелку под землю -->
+<!-- пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ -->
 	<trigger Name="trAliensShipAnderEarth" active="1">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -1197,7 +1197,7 @@
 
 
 
-<!-- эфекты на електростанции -->
+<!-- пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ -->
 	<trigger Name="trLightOn" active="1">
 		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -1298,7 +1298,7 @@
 
 
 
-<!-- 	поочередно выключающиися эфекты		 -->
+<!-- 	пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ		 -->
 	<trigger Name="trLightOff" active="0">
 		<event timeout="2.6" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -1350,7 +1350,7 @@
 
 
 
-<!-- ролик с появлением тарелки -->
+<!-- пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ -->
 	<trigger Name="RolikBegin_UFO" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -1484,7 +1484,7 @@
 		</script>
 	</trigger>
 
-<!-- Диолог игрока с пришельцами -->
+<!-- пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ -->
 	<trigger Name="trUFODIOLOG_cam01" active="0">
 		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
 		<script>
@@ -1663,7 +1663,7 @@
 
 
 
-<!-- диолог перед боем с нло -->
+<!-- пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅ -->
 	<trigger Name="trBattleUFO_cam01" active="0">
 		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
 		<script>
@@ -1757,7 +1757,7 @@
 
 
 
-<!-- смерть НЛО -->
+<!-- пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ -->
 	<trigger Name="RolikBegin_UFODIE" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -1870,12 +1870,11 @@
 		<event msgid="5994" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
 		<script>
 			if CountPlayerProgress() >= 99 then
-				PlayCustomMusic("HnM_EndingFull")
 				TDeactivate("RolikEnd_UFODIE")
 				TActivate("Ending100")
-			else
-				PlayCustomMusic("HnM_Ending")
 			end
+
+			PlayCustomMusic("HnM_EndingFull")
 
 			RuleConsole("snd_2dVolume 0")
             RuleConsole("snd_3dVolume 0")

@@ -7559,7 +7559,7 @@
 
 	<Reply
 		name="Buyer_hellodlg0_1"
-		text="So, bokuda! Kun wa pita no musukodane. Sanzoku ga abarete kikenna jidaida. Karojite Yuzuni ni tadoritsuitaga, keibihei o 2 nin koroshiteshimatta. Kore ga saigo no tabi ni narudaro."
+		text="So, bokuda! Kun wa Pita no musukodane. Sanzoku ga abarete kikenna jidaida. Karojite Yuzuni ni tadoritsuitaga, keibihei o 2 nin koroshiteshimatta. Kore ga saigo no tabi ni narudaro."
 		role="NPC"
 		nextReplies="Buyer_hellodlg0_P1_1" />
 

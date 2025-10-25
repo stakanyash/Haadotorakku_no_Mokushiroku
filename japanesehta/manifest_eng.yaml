@@ -4,8 +4,8 @@ language: eng
 installment: exmachina
 # required human readable info
 display_name: Haadotorakku no Mokushiroku
-version: "1.0.3"
-build: "241212d"
+version: "1.1"
+build: "251025b"
 description: 'Auto-translate Hard Truck Apocalypse into Japanese. The text in the game is written using the «Romaji» style.
 
 
@@ -34,12 +34,13 @@ prerequisites:
   - name: community_remaster
     versions:
       - ">=1.14.1"
+    optional_content:
+     - hd_gun_models
+     - hd_vehicle_models
+     - ost_remaster
 
 optional_content:
-  - name: hd_music
-    display_name: "Remastered driving-themes"
-    description: "Enables remastering of driving themes that are disabled in the mod by default. 
-    
-    
-    WARNING! Install only if you have OST remaster installed, otherwise driving themes will not work in game!"
+  - name: oldost
+    display_name: "Old OST version Haadotorakku no Mokushiroku"
+    description: "Restores the old OST that was used before version 1.1"
     default_option: skip
